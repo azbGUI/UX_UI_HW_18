@@ -101,15 +101,18 @@ footer{
   font-size: 40px;
 }
 /* ABOVE THIS IS EVERYTHING INSIDE THE FOOTER*/
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 /* Your CSS styles for your grid template area here */
+
 /* THIS IS EVERYTHING INSIDE THE MOBILE MEDIA QUERY*/
 #categorygrid {
   margin: 0px 5%;
   display: grid;
   
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
